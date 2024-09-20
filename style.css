@@ -3,3 +3,56 @@ body {
   height: 100%;
   margin: 0;
 }
+  h1 {
+  text-align: center;
+  }
+
+figure{
+    display: block;
+  margin: 0 auto;
+  text-align: center;
+  }
+  figure img {
+    max-width: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: aquamarine;
+  }
+  
+  #details a {
+    display: block;
+    text-align: center;
+  }
+  figcaption {
+    margin-top: 10px;
+    font-size: small;
+    align-items: center;
+  }
+  #featured-property p{
+    width: 800px;
+    padding-top: 10;
+    padding-bottom: 10;
+  }
+  #details div {
+    float: left;
+  }
+
+  #details div {
+    width: 25%;
+    background-color: rebeccapurple;
+    text-align: center;
+  }
+  #details {
+    display:flex;
+    justify-content: space-between
+  }
+  
+  
